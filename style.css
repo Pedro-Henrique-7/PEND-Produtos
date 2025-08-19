@@ -67,6 +67,7 @@ main {
     width: 173px;
     display: flex;
     justify-content: center;
+    border-radius: 6px;
 }
 
 .card-item .item img {
@@ -74,4 +75,14 @@ main {
     width: 160px;
     margin-top: 40px;
     object-fit: cover;
+    display: flex;
+}
+
+.card-item .item .description {
+    border-radius: 6px;
+    background-color: azure;
+    height: 157px;
+    width: 156px;
+    display: flex;
+    justify-content: center;
 }
